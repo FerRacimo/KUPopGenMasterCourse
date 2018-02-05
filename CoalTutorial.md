@@ -89,7 +89,7 @@ ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw
 ```
 
 You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the link below, and then running it locally in your machine (from the folder in which you downloaded the script):
-
+https://github.com/FerRacimo/KU2018PopGenCourse/blob/master/simulatecoalescencetrees.R
 
 ```
 R
