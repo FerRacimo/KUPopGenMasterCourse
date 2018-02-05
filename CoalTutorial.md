@@ -73,7 +73,7 @@ after	a	drawing	a	few	trees still	don’t	understand	then	feel	free	to	ask for	h
 
 Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got	I	
 made	a	function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
-can	use	it	by	typing the	following	in	R:
+can	use	it from the course server	by	typing the	following	in	R:
 
 ```
 source("simulatecoalescencetrees.R")
