@@ -88,8 +88,7 @@ yourtree <-simtree(5) # simulate tree with 5 nodes
 ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw tree
 ```
 
-You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the link below, and then running it locally in your machine (from the folder in which you downloaded the script):
-https://github.com/FerRacimo/KU2018PopGenCourse/blob/master/simulatecoalescencetrees.R
+You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the Course_Material folder in Absalon, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
 
 ```
 R
