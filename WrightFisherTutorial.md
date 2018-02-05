@@ -1,7 +1,13 @@
 Exercises using the Wright-Fisher application
 ===============
 
-Open the Wright-Fisher application from www.coalescent.dk. It is developed by Anders M. Mikkelsen, Jotun Hein and Mikkel Schierup. It is possible to use the Wright-Fisher animator to follow the reproduction process forward in time and the coalescent process backwards in time one generation at a time. After you have followed the reproduction process a number of generations forwards in time it is possible to “untangle” the genealogy, and then to follow both how many descendants each of the original genes leave over generations (click on upper row), and to follow the ancestors to the sequence in the bottom row (by pressing the circles in the bottom row).
+Open the Wright-Fisher application from www.coalescent.dk. You may download it and run it locally in your machine, or run it from the course server, using the following command:
+
+```
+java -jar /usr/local/src/Felsenstein.jar
+ ```
+
+It is possible to use the Wright-Fisher animator to follow the reproduction process forward in time and the coalescent process backwards in time one generation at a time. After you have followed the reproduction process a number of generations forwards in time it is possible to “untangle” the genealogy, and then to follow both how many descendants each of the original genes leave over generations (click on upper row), and to follow the ancestors to the sequence in the bottom row (by pressing the circles in the bottom row).
 
 A new simulation is done by setting the parameters and pressing the new bottom. The simulation can then be controlled by the buttons in the bottom (right) part of the window, e.g. one generation at a time. One button enables you to untangle the resulting genealogy (i.e. rearranging individuals so that lines do not cross).
 
