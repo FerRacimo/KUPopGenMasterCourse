@@ -76,7 +76,7 @@ made	a	function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawin
 can	use	it from the course server	by	typing the	following	in	R:
 
 ```
-source("simulatecoalescencetrees.R")
+source("~/groupdirs/SCIENCE-BIO-Popgen_Course/scripts/simulatecoalescencetrees.R")
 ```
 
 Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by	hand by	typing:
@@ -86,8 +86,17 @@ yourtree <-simtree(5) # simulate tree with 5 nodes
 ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw tree
 ```
 
-And	the	code	also	prints	the	simulated	coalescence	times.	
-Do	this	at	least	10	times	and	based	on	the	results you	get answer	the	following	questions (note	if	
+You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the link below, and then running it locally in your machine:
+
+
+```
+install.packages("ape")
+source("simulatecoalescencetrees.R")
+```
+
+Note that the code	also	prints	the	simulated	coalescence	times.	
+
+Plot a different tree	at	least	10	times	and	based	on	the	results you	get answer	the	following	questions (note	if	
 you	want	to	keep	all	the	results	open	at	the	same	time	then	type	x11()	before	each	simulation):
 
 1) Which	coalescence event takes	the	longest on	average (the	first coalescence event,	the	
