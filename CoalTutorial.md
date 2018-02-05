@@ -14,6 +14,7 @@ drawing	a	tree	above them).	Name	these	nodes 1,2,3,4,5
 simply	writing:
 
 ```
+R
 nodes = c(1,2,3,4,5) # make the list and call it nodes
 nodes # print the list
 ```
@@ -76,6 +77,7 @@ made	a	function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawin
 can	use	it from the course server	by	typing the	following	in	R:
 
 ```
+R
 source("~/groupdirs/SCIENCE-BIO-Popgen_Course/scripts/simulatecoalescencetrees.R")
 ```
 
@@ -86,10 +88,11 @@ yourtree <-simtree(5) # simulate tree with 5 nodes
 ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw tree
 ```
 
-You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the link below, and then running it locally in your machine:
+You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the link below, and then running it locally in your machine (from the folder in which you downloaded the script):
 
 
 ```
+R
 install.packages("ape")
 source("simulatecoalescencetrees.R")
 ```
