@@ -81,14 +81,22 @@ R
 source("~/groupdirs/SCIENCE-BIO-Popgen_Course/scripts/simulatecoalescencetrees.R")
 ```
 
-Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by	hand by	typing:
+Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by hand by	typing the code below, which will print out ten trees on the screen:
 
 ```
-yourtree <-simtree(5) # simulate tree with 5 nodes
-ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw tree
+par (mfrow=c(2,5))
+
+for (i in c(1:10)){
+
+         yourtree <-simtree(5) # simulate tree with 5 nodes
+
+         ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw tree
+
+}
+
 ```
 
-You should see a tree printed out in the screen. If this doesn't happen, try downloading the R script from the Course_Material folder in Absalon, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
+You should see several trees printed out in the screen. If this doesn't happen, try downloading the R script from the Course_Material folder in Absalon, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
 
 ```
 R
