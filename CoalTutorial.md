@@ -106,8 +106,7 @@ source("simulatecoalescencetrees.R")
 
 Note that the code	also	prints	the	simulated	coalescence	times.	
 
-Plot a different tree	at	least	10	times	and	based	on	the	results you	get answer	the	following	questions (note	if	
-you	want	to	keep	all	the	results	open	at	the	same	time	then	type	x11()	before	each	simulation):
+Based	on	the	results you	get answer	the	following	questions:
 
 1) Which	coalescence event takes	the	longest on	average (the	first coalescence event,	the	
 second,	…,	or	the	last)?	And	which	event	takes	the	shortest on	average?
