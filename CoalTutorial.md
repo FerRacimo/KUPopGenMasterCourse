@@ -85,13 +85,11 @@ Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	b
 
 ```
 par (mfrow=c(2,5))
-
 for (i in c(1:10)){
-
+         print("New Tree")
          yourtree <-simtree(5) # simulate tree with 5 nodes
-
          ct<-read.tree(text=yourtree);plot(ct);add.scale.bar(cex = 0.7,col = "red")# draw tree
-
+         print(" ")
 }
 
 ```
