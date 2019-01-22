@@ -3,7 +3,7 @@ Exercises in coalescent theory
 
 Based on notes by Ida Moltke.
 
-## Exercise	1A:	Simulating	a	coalescence	tree	assuming	a	constant	population	size
+## Exercise	A:	Simulating	a	coalescence	tree	assuming	a	constant	population	size
 
 The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R so a little familiarity with this language will help. First, let	us try to	simulate	a	coalescence tree	for	five gene	copies by	hand:
 
@@ -70,15 +70,14 @@ In	the	end you	should	have	a	tree,	which	is	a	simulation	of	a	coalescence	tree J
 couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	what	is	going	on	(if	you	
 after	a	drawing	a	few	trees still	don’t	understand	then	feel	free	to	ask for	help!)
 
-## Exercise	1B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
+## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
 
-Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got	I	
-made	a	function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
+Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
 can	use	it from the course server	by	typing the	following	in	R:
 
 ```
 R
-source("~/groupdirs/SCIENCE-BIO-Popgen_Course/scripts/simulatecoalescencetrees.R")
+source("/home/fernando/simulatecoalescencetrees.R")
 ```
 
 Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by hand by	typing the code below, which will print out ten trees on the screen:
@@ -88,13 +87,13 @@ par (mfrow=c(2,5))
 for (i in c(1:10)){
          print("New Tree")
          yourtree <-simtree(5) # simulate tree with 5 nodes
-         ct<-read.tree(text=yourtree);plot(ct,cex=1.5);add.scale.bar(cex = 2,col = "red")# draw tree
+         ct<-read.tree(text=yourtree);plot(ct,cex=1.5);add.scale.bar(y=1.2,x=0.2,cex = 2,col = "red",lcol="red",lwd=3)
          print(" ")
 }
 
 ```
 
-You should see several trees printed out in the screen. If this doesn't happen, try downloading the R script from the Course_Material folder in Absalon, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
+You should see several trees printed out in the screen. If this doesn't happen, try downloading the R script from this github website, and then running it locally in your machine (after you cd to the folder in which you downloaded the script).
 
 ```
 R
@@ -109,18 +108,18 @@ Based	on	the	results you	get answer	the	following	questions:
 1) Which	coalescence event takes	the	longest on	average (the	first coalescence event,	the	
 second,	…,	or	the	last)?	And	which	event	takes	the	shortest on	average?
 
-2) Is	that	what	you	would	expect	(the	mean	of	an	exponential	distribution	with rate	r	is	1/r	
-and	the	coalescence rate	when	there	are	x nodes	left	is	x(x-1)/2.	So	the	mean	is	2/x(x-1),	so
-for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/5(5-1)=0.1)
+2) Is	that	what	you	would	expect? Recall that the	mean	of	an	exponential	distribution	with rate	lambda	is	1/lambda	
+and	the	coalescence rate	when	there	are	n nodes	left	is	n(n-1)/2.	So	the	mean	is	2/(n(n-1)),	so
+for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-1))=0.1
 
 3) Which	coalescence event	time	seems to	vary	the	most?
 
-4) Is	that	what	you	would	expect	(the	variance	of	an	exponential	is	1/(r^2)
+4) Is	that	what	you	would	expect? Recall that the	variance	of	an	exponential	is	1/(lambda^2).
 
 5) Finally,	imagine	the	following	case:	a	researcher	has	estimated	the	structure	of	a	tree	for	
 mtDNA	from	a	species	sampled	in	a	single	location.	She	obtains	a	tree	looking	as	follows:
 
-![alt text](https://github.com/FerRacimo/KU2018PopGenCourse/blob/master/Tree0.png)
+![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/Tree0.png)
 
 Based	on	the	structure	of	the	tree,	i.e.	two	groups	of	related	individuals	separated	by	long	
 branches	down	to the	root	of	the	tree,	she	concludes	that	there	must	be population	
