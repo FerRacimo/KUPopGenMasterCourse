@@ -77,7 +77,7 @@ can	use	it from the course server	by	typing the	following	in	R:
 
 ```
 R
-source("/home/fernando/simulatecoalescencetrees.R")
+source("/home/rgf352/groupdirs/SCIENCE-BIO-Popgen_Course/scripts/simulatecoalescencetrees.R")
 ```
 
 Once	you	have	done	this	you can	simulate	and	draw	trees just like	you	just	did	by hand by	typing the code below, which will print out ten trees on the screen:
