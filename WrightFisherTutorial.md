@@ -10,11 +10,12 @@ Set N = number of individuals = 10, and G = number of generations = 15.
 
 ## 1 - Thinking forwards in time
 
-- a) For each of the initial gene copies, record how long they persist in the population.
-- b) Calculate the mean and variance in the number of descendants of the initial gene copies in the next generation.
-- c) Calculate the mean and variance in the number of descendants of the initial gene copies in the present (bottom) generation.
+We will compute the sample mean and sample variance of various quantities. If you need the formula for the sample mean and sample variance, you can find them here: http://www.math.uah.edu/stat/sample/Variance.html 
 
-If you need the formula for the sample mean and sample variance, you can find them here: http://www.math.uah.edu/stat/sample/Variance.html 
+- a) For each of gene copies of the first generation (i.e. each of the colored "balls" in the top row), write down how many generations they persist in the population. Do these lengths of time (number of generations) tend to be similar to each other? If not, what phenomenon is driving the differences in survival time between gene copies?
+- b) Calculate the mean and variance in the number of descendants of the first-generation gene copies in the next generation.
+- c) Calculate the mean and variance in the number of descendants of the first-generation gene copies in the present (bottom row) generation.
+- d) Compare the means from b) and c) and the variances from b) and c). Do these numbers fit your expectations about the Wright-Fisher process, given what we covered in lecture?
 
 ## 2- Thinking backwards in time (coalescence)
 
