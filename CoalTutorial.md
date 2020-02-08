@@ -7,8 +7,8 @@ Based on notes by Ida Moltke.
 
 The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence tree	is	simulated. We will use R so a little familiarity with this language will help. First, let	us try to	simulate	a	coalescence tree	for	five gene	copies by	hand:
 
-1. Start	by	drawing	on a piece of paper a	small circle	for	each	of	the	five	gene	copies on	an	invisible line	(with	space	for	
-drawing	a	tree	above them).	We will henceforth call these five circles "nodes" and label them "1", "2", "3", "4" and "5".
+1. Start	by	drawing	on a piece of paper a	small circle	for	each	of	the	five	gene	copies. They should be lined up on	an	invisible horizontal line	and you should leave enough	space	above the circles for	
+drawing	a	tree	above them (which we will do shortly).	We will henceforth call these five circles "nodes" and label them "1", "2", "3", "4" and "5".
 
 2. Also,	make	a	list	of	the	node	names.	You	can	either	do	this	by	hand	or	you	can	do	it	in	R	by	
 simply	writing:
@@ -113,7 +113,7 @@ for	instance	for	when	there	are	5	nodes	left	the	mean	coalescent	time	is	2/(5(5-
 
 3) Which	coalescence event	time	seems to	vary	the	most?
 
-4) Is	that	what	you	would	expect? Recall that the	variance	of	an	exponential	is	1/(lambda^2).
+4) Is	that	what	you	would	expect? Recall that, if we have a random variable that follows an exponential distribution with rate lambda, then its variance is equal 1/(lambda^2).
 
 5) Finally,	imagine	the	following	case:	a	researcher	has	estimated	the	structure	of	a	tree	for	
 mtDNA	from	a	species	sampled	in	a	single	location.	She	obtains	a	tree	looking	as	follows:
