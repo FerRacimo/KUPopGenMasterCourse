@@ -19,6 +19,6 @@ We will compute the sample mean and sample variance of various quantities. If yo
 
 ## 2- Thinking backwards in time (coalescence)
 
-- a) Start a new simulation and choose 3 gene copies at random in the present generation. Do all these copies in the present generation coalesce within this time span? If so, record the number of generations to coalescence (the first time they have a common ancestor) of all 3 gene copies. If not, record that the copies did not coalesce and write down how many ancestors there are in the first generation.
-- b) Repeat exercise a 5 times, writing down the number of ancestors and the time to coalescence. This should give you an idea about the variance of the process.
-- c) Repeat exercises a-b above with N=5 and N=30. How does the time to coalescence for the 3 gene copies in the present scale with N? In other words, do they tend to coalesce faster when N is large or when N is small?
+- a) Start a new simulation and choose 3 gene copies at random in the present (bottom row) generation. Do all these chosen gene copies in the present generation coalesce within the time span of our simulation (G)? If so, record the number of generations to coalescence (the first time they have a common ancestor) of all 3 gene copies. If they have not all coalesced by the time to get to the first generation, record that the copies did not coalesce and write down how many ancestors there are in the first generation.
+- b) Repeat exercise a) 5 times, writing down the time to coalescence of all 3 gene copies (if it occurs). This should give you an idea about the variance of the process.
+- c) Repeat exercises a) and b) above with N=5 and N=30. How does the time to coalescence for the 3 gene copies in the present scale with N? In other words, do they tend to coalesce faster when N is large or when N is small?
