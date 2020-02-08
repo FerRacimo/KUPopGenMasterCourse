@@ -31,7 +31,7 @@ nodes[tocoalesce[2]] # print the second node sampled
 
 If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	on.
 
-4. Sample	the	time	it	takes	before	these	two	nodes	coalesce	(measured	from	previous	
+4. Sample	the	time	it	takes	before	these	two	nodes	coalesce	(measured	from the	previous	
 coalescence	event in	units	of	2N)	by	sampling	from	an	exponential	distribution	with	rate	equal	
 to	nodecount*(nodecount-1)/2	where	nodecount	is	the	number	of	nodes	in	your node	list.	Do	
 this	in	R	by	typing:
