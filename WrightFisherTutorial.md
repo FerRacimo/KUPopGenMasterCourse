@@ -10,12 +10,11 @@ Set N = number of individuals = 10, and G = number of generations = 15.
 
 ## 1 - Thinking forwards in time
 
-We will compute the sample mean and sample variance of various quantities. If you need the formula for the sample mean and sample variance, you can find them here: http://www.math.uah.edu/stat/sample/Variance.html 
+We will compute the sample mean and sample variance of various quantities. If you need the formula for the sample mean and sample variance, you can find them here: https://study.com/academy/lesson/sample-mean-variance-definition-equations-examples.html
 
-- a) For each of gene copies of the first generation (i.e. each of the colored "balls" in the top row), write down how many generations they persist in the population. Are all gene copies still present in the population in the present (bottom row)? Do the recorded lengths of time (number of generations) tend to be similar to each other? If not, what phenomenon is driving the differences in survival time between gene copies?
-- b) Calculate the mean and variance in the number of descendants of the first-generation gene copies in the next generation.
-- c) Calculate the mean and variance in the number of descendants of the first-generation gene copies in the present (bottom row) generation.
-- d) Compare the means from b) and c) and the variances from b) and c). Do these numbers fit your expectations about the Wright-Fisher process, given what we covered in lecture?
+- a) For each of gene copies of the first generation (i.e. each of the colored "balls" in the top row), calculate the sample mean and variance in the number of their descendants in the next generation.
+- b) Now, calculate the sample mean and variance in the number of descendants of the first-generation gene copies in the present (bottom row) generation.
+- c) Compare the sample means from a) and b) and the sample variances from a) and b). Do these numbers fit your expectations about the Wright-Fisher process, given what we covered in lecture?
 
 ## 2- Thinking backwards in time (coalescence)
 
