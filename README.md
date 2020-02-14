@@ -1,1 +1,1 @@
-# KU2019PopGenCourse
+# KUPopGenMasterCourse
