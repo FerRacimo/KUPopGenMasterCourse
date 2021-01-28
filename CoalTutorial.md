@@ -10,6 +10,10 @@ The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence
 1. Start	by	drawing	on a piece of paper a	small circle	for	each	of	the	five	gene	copies. They should be lined up on	an	invisible horizontal line	and you should leave enough	space	above the circles for	
 drawing	a	tree	above them (which we will do shortly).	We will henceforth call these five circles "nodes" and label them "1", "2", "3", "4" and "5".
 
+
+![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex1.png)
+
+
 2. Also,	make	a	list	of	the	node	names.	You	can	either	do	this	by	hand	or	you	can	do	it	in	R	by	
 simply	writing:
 
@@ -63,6 +67,12 @@ nodes # print the new list
 
 If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	on.
 
+Here's an example with a first coalescent, in which the first 2 nodes to coalesce were randomly chosen to be '2' and '4':
+
+
+![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex2.png)
+
+
 7. If	you	only	have	one	node	left	in	your	list	of	remaining	nodes	you	are	done.	If	not,	go	back	to	
 step	3.	
 
@@ -73,7 +83,7 @@ couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the 
 
 Doing	this	by	hand	is	obviously a	bit	tedious.	Thankfully, one can write programs using code snippets like the ones above, in order to automatize this process. Go to the following link to find an example of such programs: https://keholsinger.shinyapps.io/coalescent/
 
-Generate 10 trees with 10 lineages ('alleles') each, and take screenshots of them each time, so you can compare them later.
+Generate 10 trees with 5 lineages ('alleles') each, and take screenshots of them each time, so you can compare them later.
 
 
 
