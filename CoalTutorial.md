@@ -71,7 +71,11 @@ couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the 
 
 ## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
 
-Doing	this	by	hand	is	obviously a	bit	tedious.	
+Doing	this	by	hand	is	obviously a	bit	tedious.	Thankfully, one can write programs using code snippets like the ones above, in order to automatize this process. Go to the following link to find an example of such programs: https://keholsinger.shinyapps.io/coalescent/
+
+Generate 10 trees with 10 lineages ('alleles') each, and take screenshots of them each time, so you can compare them later.
+
+
 
 <!--
 So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
@@ -108,7 +112,7 @@ Note that the code	also	prints	the	simulated	coalescence	times.
 -->
 
 
-Based	on	the	results you	get answer	the	following	questions:
+Based	on	the	results you	get, answer	the	following	questions:
 
 1) Which	coalescence event takes	the	longest on	average (the	first coalescence event,	the	
 second,	…,	or	the	last)?	And	which	event	takes	the	shortest on	average?
