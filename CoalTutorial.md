@@ -67,7 +67,7 @@ nodes # print the new list
 
 If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	on.
 
-Here's an example with a first coalescent, in which the first 2 nodes to coalesce were randomly chosen to be '2' and '4':
+Here's an example with a first coalescent, in which the first 2 nodes to coalesce were randomly chosen to be '2' and '4', creating a new parent node '6':
 
 
 <img src="https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex2.jpeg" width="500" height="500">
