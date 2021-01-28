@@ -11,7 +11,7 @@ The	purpose	of	this first	exercise	is	to	make	sure	it	is	clear	how	a	coalescence
 drawing	a	tree	above them (which we will do shortly).	We will henceforth call these five circles "nodes" and label them "1", "2", "3", "4" and "5".
 
 
-![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex1.png)
+![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex1.jpeg)
 
 
 2. Also,	make	a	list	of	the	node	names.	You	can	either	do	this	by	hand	or	you	can	do	it	in	R	by	
@@ -70,7 +70,7 @@ If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	o
 Here's an example with a first coalescent, in which the first 2 nodes to coalesce were randomly chosen to be '2' and '4':
 
 
-![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex2.png)
+![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex2.jpeg)
 
 
 7. If	you	only	have	one	node	left	in	your	list	of	remaining	nodes	you	are	done.	If	not,	go	back	to	
