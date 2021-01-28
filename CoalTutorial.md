@@ -71,7 +71,10 @@ couple times	until	you	feel	like	you	know	how	it	is	done	and	understand	how the 
 
 ## Exercise	B:	Exploring	the	basic	properties	of	a	standard	coalescence tree	
 
-Doing	this	by	hand	is	obviously a	bit	tedious.	So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
+Doing	this	by	hand	is	obviously a	bit	tedious.	
+
+<!--
+So	based	on	the	R	code	snippets	you	already	got, we have built a function	that	allows	you	to	do	this	automatically	(it	even	makes	a	drawing	of	the	tree).	You	
 can	use	it from the course server	by	typing the	following	in	R (assuming you're working from the SCIENCE-BIO-Popgen_Course directory, otherwise expand the address as needed):
 
 ```
@@ -101,6 +104,9 @@ source("simulatecoalescencetrees.R")
 ```
 
 Note that the code	also	prints	the	simulated	coalescence	times.	
+
+-->
+
 
 Based	on	the	results you	get answer	the	following	questions:
 
