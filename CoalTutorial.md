@@ -70,7 +70,7 @@ If	you	used	R	then	make	sure	you	understand	what	the	R	code	does	before	moving	o
 Here's an example with a first coalescent, in which the first 2 nodes to coalesce were randomly chosen to be '2' and '4':
 
 
-![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex2.jpeg)
+![alt text](https://github.com/FerRacimo/KUPopGenMasterCourse/blob/master/coal_ex2.jpeg){:height="50%" width="50%"}
 
 
 7. If	you	only	have	one	node	left	in	your	list	of	remaining	nodes	you	are	done.	If	not,	go	back	to	
